@@ -13,10 +13,10 @@
             "key_code": "left_option",
             "modifiers": {
               "optional": [
-                "caps_lock"
-                "left_command"
+                "caps_lock",
+                "left_command",
                 "left_shift",
-                "left_control"
+                "left_control",
                 "right_shift",
                 "right_control"
               ]
@@ -37,10 +37,10 @@
             "key_code": "left_command",
             "modifiers": {
               "optional": [
-                "caps_lock"
-                "left_option"
+                "caps_lock",
+                "left_option",
                 "left_shift",
-                "left_control"
+                "left_control",
                 "right_shift",
                 "right_control"
               ]
