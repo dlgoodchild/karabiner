@@ -1,0 +1,28 @@
+{
+  "title": "Microsoft Natural Ergonomic Keyboard 4000 (model no. 1048 / KU-0462)",
+  "rules": [
+    {
+      "description": "Swap left_command and left_control",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_option"
+          },
+          "to": {
+            "key_code": "left_command"
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_command"
+          },
+          "to": {
+            "key_code": "left_option"
+          }
+        }
+      ]
+    }
+  ]
+}
