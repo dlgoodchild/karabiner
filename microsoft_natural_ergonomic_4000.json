@@ -5,6 +5,9 @@
       "description": "Swap left_command and left_control",
       "manipulators": [
         {
+          "conditions": [
+            {"type": "device_if", "identifiers": [{"vendor_id": 1118, "product_id": 219}]}
+          ],
           "type": "basic",
           "from": {
             "key_code": "left_option"
@@ -16,6 +19,9 @@
           ]
         },
         {
+          "conditions": [
+            {"type": "device_if", "identifiers": [{"vendor_id": 1118, "product_id": 219}]}
+          ],
           "type": "basic",
           "from": {
             "key_code": "left_command"
@@ -29,9 +35,12 @@
       ]
     },
     {
-      "description": "Swap non_us_backslash(§) and backslash()",
+      "description": "Swap non_us_backslash(§) and backslash(\\)",
       "manipulators": [
         {
+          "conditions": [
+            {"type": "device_if", "identifiers": [{"vendor_id": 1118, "product_id": 219}]}
+          ],
           "type": "basic",
           "from": {
             "key_code": "non_us_backslash",
